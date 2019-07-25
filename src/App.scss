@@ -1,0 +1,17 @@
+.profile-item {
+  position: relative;
+  background-color: red;
+
+  .account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .settings-icon {
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+}
